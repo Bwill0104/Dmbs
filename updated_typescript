@@ -1,0 +1,374 @@
+Script started on 2025-02-13 22:01:36-0600
+groups: cannot find name for group ID 762800513
+]0;bryanw@turing: ~/Database/hw2[01;32mbryanw@turing[00m:[01;34m~/Database/hw2[00m$ script[4Plsscript[4Plsscript[K./run.bash 
+Program written by Bryan Williams and Tony Sanchez
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 1
+
+Enter CSV filename: g
+g.data not found
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 1
+
+Enter CSV filename: colleges
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 2
+
+Enter CSV filename: colleges
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 100654
+College ID: 100654     State: Alabama     City: Huntsville      Name: Alabama_A&M_University                   
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 236504
+College ID: 236504     State: Washington  City: Seattle         Name: South_Seattle_College                    
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: -1
+ID  -1  not found
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 5
+
+Enter College Id: 100654
+College ID: 100654     State: Alabama     City: Huntsville      Name: Alabama_A&M_University                   
+
+1)  State
+2)  City
+3)  Name
+
+Enter Attribute: 1
+Enter updated State: Alaska
+Record 0, College ID: 100654     State: Alaska      City: Huntsville      Name: Alabama_A&M_University                   
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 100654
+College ID: 100654     State: Alaska      City: Huntsville      Name: Alabama_A&M_University                   
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 6
+
+------------- Printing Report ------------
+
+College ID      State       City                 Name                                       
+100654          Alaska      Huntsville           Alabama_A&M_University                   
+100663          Alabama     Birmingham           University_of_Alabama_at_Birmingham      
+100706          Alabama     Huntsville           University_of_Alabama_in_Huntsville      
+100724          Alabama     Montgomery           Alabama_State_University                 
+100751          Alabama     Tuscaloosa           University_of_Alabama                    
+100760          Alabama     Alexander_City       Central_Alabama_Community_College        
+100812          Alabama     Athens               Athens_State_University                  
+100830          Alabama     Montgomery           Auburn_University_at_Montgomery          
+100858          Alabama     Auburn               Auburn_University                        
+100937          Alabama     Birmingham           Birmingham-Southern_College              
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 8
+
+Enter College Id: 100760
+Successfully deleted!
+
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 100760
+College ID: 100760     State:             City:                 Name:                                          
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 6
+
+------------- Printing Report ------------
+
+College ID      State       City                 Name                                       
+100654          Alaska      Huntsville           Alabama_A&M_University                   
+100663          Alabama     Birmingham           University_of_Alabama_at_Birmingham      
+100706          Alabama     Huntsville           University_of_Alabama_in_Huntsville      
+100724          Alabama     Montgomery           Alabama_State_University                 
+100751          Alabama     Tuscaloosa           University_of_Alabama                    
+100812          Alabama     Athens               Athens_State_University                  
+100830          Alabama     Montgomery           Auburn_University_at_Montgomery          
+100858          Alabama     Auburn               Auburn_University                        
+100937          Alabama     Birmingham           Birmingham-Southern_College              
+101143          Alabama     Enterprise           Enterprise_State_Community_College       
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 222222
+ID  222222  not found
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 7
+Enter College ID: 222222
+Enter State: Pennsylvania
+Enter City: Pittsburgh
+Enter College Name: Pittsburgh_State_University
+Successfully added!
+
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 222222
+College ID: 222222     State: Pennsylvania City: Pittsburgh      Name: Pittsburgh_State_University              
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 5
+
+Enter College Id: 222222
+College ID: 222222     State: Pennsylvania City: Pittsburgh      Name: Pittsburgh_State_University              
+
+1)  State
+2)  City
+3)  Name
+
+Enter Attribute: 2
+Enter updated City: Philadelphia
+Record 1528, College ID: 222222     State: Pennsylvania City: Philadelphia    Name: Pittsburgh_State_University              
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 4
+
+Enter College Id: 222222
+College ID: 222222     State: Pennsylvania City: Philadelphia    Name: Pittsburgh_State_University              
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 6
+
+------------- Printing Report ------------
+
+College ID      State       City                 Name                                       
+100654          Alaska      Huntsville           Alabama_A&M_University                   
+100663          Alabama     Birmingham           University_of_Alabama_at_Birmingham      
+100706          Alabama     Huntsville           University_of_Alabama_in_Huntsville      
+100724          Alabama     Montgomery           Alabama_State_University                 
+100751          Alabama     Tuscaloosa           University_of_Alabama                    
+100812          Alabama     Athens               Athens_State_University                  
+100830          Alabama     Montgomery           Auburn_University_at_Montgomery          
+100858          Alabama     Auburn               Auburn_University                        
+100937          Alabama     Birmingham           Birmingham-Southern_College              
+101143          Alabama     Enterprise           Enterprise_State_Community_College       
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 3
+Successfully Close!
+
+------------- Menu ------------
+1)  Create new database
+2)  Open database
+3)  Close database
+4)  Display record
+5)  Update record
+6)  Create report
+7)  Add record
+8)  Delete record
+9)  Quit
+
+Enter Option: 9
+]0;bryanw@turing: ~/Database/hw2[01;32mbryanw@turing[00m:[01;34m~/Database/hw2[00m$ exit
+exit
+
+Script done on 2025-02-13 22:07:30-0600
